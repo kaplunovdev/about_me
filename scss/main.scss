@@ -1,5 +1,57 @@
-@import "_header.scss";
+@import "_section_1.scss";
 @import "_footer.scss";
 @import "_fonts.scss";
 @import "_reset.scss";
 
+.container {
+    padding: 0 18px;
+}
+
+//Buttons
+.common-button {
+    max-width: 225px;
+    margin: 0 auto;
+    button,
+    a {
+        display: block;
+        position: relative;
+        width: 100%;
+        min-height: 65px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        //line-height: 1.2;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background: #34547a;
+        overflow: hidden;
+        outline: none;
+        cursor: pointer;
+        padding: 25px 0 21px 0;
+        margin: 0;
+        transition: (background 0.2s);
+        text-transform: uppercase;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+
+        &:hover {
+            color: #ffffff;
+            background: #716fe7;
+        }
+
+        &:active {
+            opacity: 0.9;
+        }
+    }
+}
+
+// Media query
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+}
