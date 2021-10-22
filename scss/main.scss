@@ -4,6 +4,8 @@
 @import "_section_1.scss";
 @import "_section_2.scss";
 @import "_section_3.scss";
+@import "_section_4.scss";
+
 
 
 .container {
@@ -53,7 +55,7 @@
 // Media query
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1110px;
+        max-width: 1150px;
         margin: 0 auto;
     }
 
