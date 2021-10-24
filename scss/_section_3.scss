@@ -4,7 +4,7 @@
 }
 .third__wrap {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 393px;
   margin: 0 auto;
@@ -49,9 +49,13 @@
   }
   .third {
     background: #34547a;
-    padding: 100px 0 80px 0;
+    padding: 100px 0 70px 0;
   }
   .third__item{
     margin-bottom: 20px;
+    margin-right: 52px;
+    &:last-child{
+      margin-right: 0;
+    }
   }
 }
