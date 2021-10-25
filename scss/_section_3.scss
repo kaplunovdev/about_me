@@ -1,10 +1,10 @@
 .third {
   background: #34547a;
-  padding: 75px 0 30px 0;
+  padding: 75px 0 0;
 }
 .third__wrap {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   max-width: 393px;
   margin: 0 auto;
@@ -46,6 +46,7 @@
 @media screen and (min-width: 1280px) {
   .third__wrap {
     max-width: 100%;
+    justify-content: center;
   }
   .third {
     background: #34547a;

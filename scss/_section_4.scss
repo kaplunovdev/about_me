@@ -1,6 +1,6 @@
 .four {
     background: #fff;
-    padding: 103px 0 82px 0;
+    padding: 82px 0 97px 0;
 }
 .four__photo {
     max-width: 500px;
@@ -23,12 +23,12 @@
     color: #000000;
     line-height: 1.3;
     text-align: center;
-    margin-bottom: 42px;
+    margin-bottom: 25px;
 }
 .skills__item {
     position: relative;
     padding: 20px 0;
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
     border-bottom: 4px solid #c4c4c4;
     font-family: "Roboto";
     font-style: normal;
@@ -54,6 +54,9 @@
 
 // Media query
 @media screen and (min-width: 1280px) {
+    .four{
+        padding: 103px 0 97px 0;
+    }
     .four__wrap {
         display: flex;
         flex-direction: row-reverse;
@@ -70,6 +73,6 @@
     }
     .skills__title{
         text-align: left;
-        padding-top: 81px;
+        //padding-top: 57px;
     }
 }
